@@ -15,7 +15,7 @@ namespace ConsoleApplication1
         static void Main(string[] args)
         {
             new SimpleAzureBlobCorsSetter(
-                new Uri("https://dotnesttenantsstagingeus.blob.core.windows.net/"),
+                new Uri(""),
                 new StorageCredentials("", ""))
             .SetBlobCorsGetAnyOrigin(false);
 
